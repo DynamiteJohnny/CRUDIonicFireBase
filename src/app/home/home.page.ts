@@ -21,10 +21,6 @@ export class HomePage {
     });
   }
 
-  /*addInfo() {
-    this.router.navigate(['/add-info']);
-  }*/
-
   edit(key) {
     //console.log(key);
     this.router.navigate(['/edit/'+key]);

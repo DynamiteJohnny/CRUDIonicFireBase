@@ -11,8 +11,11 @@
   <ion-card>
     <ion-card-content>
       <ion-card-title>{{info.info_title}}</ion-card-title>
-
       <p>{{info.info_description}}</p>
     </ion-card-content>
+    <ion-buttons slot="end">
+      <ion-button href="https://www.google.com/maps/dir/?api=1&destination={{info.info_title}}&travelmode=walking"><ion-icon name="map">Ir a Lugar seguro</ion-icon>
+      </ion-button>
+    </ion-buttons>
   </ion-card>
 </ion-content>
